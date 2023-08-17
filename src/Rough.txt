@@ -1,0 +1,13 @@
+   <iframe
+                                    width="560"
+                                    height="315"
+                                    src={stream.url}
+                                    src={`https://jazzgameworld.com.pk/${imageUrl}`}
+                                    src={`https://jazzgameworld.com.pk/${imageUrl}`}
+                                    
+
+                                    href={props.videoUrl[index]} key={index}
+                                    title="YouTube Live Stream"
+                                    allowFullScreen
+
+                                ></iframe>
