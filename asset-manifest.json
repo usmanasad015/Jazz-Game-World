@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Jazz-Game-World/static/css/main.a9135f74.css",
-    "main.js": "/Jazz-Game-World/static/js/main.1914f089.js",
-    "static/js/787.c3c4a118.chunk.js": "/Jazz-Game-World/static/js/787.c3c4a118.chunk.js",
+    "main.js": "/Jazz-Game-World/static/js/main.e8f0eec1.js",
+    "static/js/787.255fef10.chunk.js": "/Jazz-Game-World/static/js/787.255fef10.chunk.js",
     "static/media/tempImg1.png": "/Jazz-Game-World/static/media/tempImg1.0c4661b427f35a4f6593.png",
     "static/media/App.test.js.png": "/Jazz-Game-World/static/media/App.test.js.acb73afcb94e5b6faf7f.png",
     "static/media/tornamentBanner.png": "/Jazz-Game-World/static/media/tornamentBanner.01778aecc0898d212f0e.png",
@@ -40,11 +40,11 @@
     "static/media/slick.woff": "/Jazz-Game-World/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Jazz-Game-World/index.html",
     "main.a9135f74.css.map": "/Jazz-Game-World/static/css/main.a9135f74.css.map",
-    "main.1914f089.js.map": "/Jazz-Game-World/static/js/main.1914f089.js.map",
-    "787.c3c4a118.chunk.js.map": "/Jazz-Game-World/static/js/787.c3c4a118.chunk.js.map"
+    "main.e8f0eec1.js.map": "/Jazz-Game-World/static/js/main.e8f0eec1.js.map",
+    "787.255fef10.chunk.js.map": "/Jazz-Game-World/static/js/787.255fef10.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9135f74.css",
-    "static/js/main.1914f089.js"
+    "static/js/main.e8f0eec1.js"
   ]
 }
