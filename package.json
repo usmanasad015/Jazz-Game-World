@@ -1,4 +1,5 @@
 {
+  "homepage": "https:usmanasad015.github.io/Jazz-Game-World",
   "proxy": "http://65.108.62.253:9080/mapp/",
   "name": "game_world_landing_2.0",
   "version": "0.1.0",
@@ -24,6 +25,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -43,7 +46,7 @@
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+       "last 1 safari version"
     ]
   }
 }
