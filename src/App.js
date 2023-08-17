@@ -1,7 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react'
 import Landing from './Components/Landing';
 import LiveStreamScreen from './Screens/liveStreamScreen';
@@ -46,14 +47,16 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
+          {/* <Switch> */}
           <Route path='/' element={<LandingScreen Token={Token} />}></Route>
           <Route path='/LiveStreamScreen' element={<LiveStreamScreen Token={Token} />}></Route>
           <Route path='/GamingSection' element={<GamingSecScreen Token={Token} />}></Route>
           <Route path='/VideoLiveStream' element={<VideoLiveStreamScreen Token={Token} />}></Route>
           <Route path='/OtpLanding' element={<OtpLandingScreen Token={Token} />}></Route>
           <Route path='/Streamers' element={<Streamers Token={Token} />}></Route>
+          {/* </Switch> */}
         </Routes>
       </BrowserRouter>
     </>

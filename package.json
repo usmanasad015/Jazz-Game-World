@@ -1,5 +1,7 @@
 {
   "homepage": "https://usmanasad015.github.io/Jazz-Game-World",
+  "proxy": "http://65.108.62.253:9080/mapp/",
+  "private": true,
   "name": "game_world_landing_2.0",
   "version": "0.1.0",
   "dependencies": {
@@ -14,7 +16,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-optimize": "^2.4.1",
-    "react-router-dom": "^6.11.1",
+    "react-router-dom": "^6.15.0",
     "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
     "react-social-icons": "^5.15.0",
@@ -44,7 +46,7 @@
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-       "last 1 safari version"
+      "last 1 safari version"
     ]
   }
 }
