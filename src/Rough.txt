@@ -1,13 +1,4 @@
-   <iframe
-                                    width="560"
-                                    height="315"
-                                    src={stream.url}
-                                    src={`https://jazzgameworld.com.pk/${imageUrl}`}
-                                    src={`https://jazzgameworld.com.pk/${imageUrl}`}
-                                    
+In package.json file
+"proxy": "http://65.108.62.253:9080/mapp/",
+  "private": true,
 
-                                    href={props.videoUrl[index]} key={index}
-                                    title="YouTube Live Stream"
-                                    allowFullScreen
-
-                                ></iframe>

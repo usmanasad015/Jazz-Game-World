@@ -1,9 +1,7 @@
 {
-  "homepage": "https:usmanasad015.github.io/Jazz-Game-World",
-  "proxy": "http://65.108.62.253:9080/mapp/",
+  "homepage": "https://usmanasad015.github.io/Jazz-Game-World",
   "name": "game_world_landing_2.0",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
